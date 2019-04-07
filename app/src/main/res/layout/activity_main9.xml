@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        style="@style/textStyle"
+        android:id="@+id/textView"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Возврат денег  за товар возможен но после дополнительной диагностики в ГО
+принимаем товар на диагностику                       (товар отправляем сервисному инженеру)"
+        />
+
+
+
+</android.support.constraint.ConstraintLayout>

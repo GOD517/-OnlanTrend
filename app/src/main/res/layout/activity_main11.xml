@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        style="@style/textStyle"
+        android:id="@+id/textView"
+        android:text="Стоимость товара до 50 тысяч рублей?"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/greenButton"
+        android:onClick="goNevScrin14"
+         />
+
+    <Button
+        style="@style/redButton"
+        android:id="@+id/button"
+        android:onClick="goNevScrin13"
+        />
+
+</android.support.constraint.ConstraintLayout>

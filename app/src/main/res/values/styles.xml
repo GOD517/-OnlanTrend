@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#f6872b</item>
+        <item name="colorPrimaryDark">#f6872b</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+
+    <style name="greenButton">
+        <item name="android:text">ДА</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25sp</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+        <item name="android:layout_margin">60dp</item>
+        
+    </style>
+
+    <style name="redButton">
+        <item name="android:text">НЕТ</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_margin">60dp</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+
+
+    </style>
+    
+    <style name="textStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="android:layout_margin">40dp</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+    </style>
+</resources>
